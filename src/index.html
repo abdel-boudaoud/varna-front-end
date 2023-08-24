@@ -8,38 +8,63 @@
   </head>
 
   <body class="bg-[#D9D9D9]">
-    <section class="hero container">
-      <div class="w-full mt-[5px]">
-        <div class="w-full flex row justify-between items-center px-[26px]">
-          <div class="logo w-[60px] h-[60px] lg:w-[70px] flex items-center">
-            <img class="" src="./assets/images/logo.png" alt="" />
-          </div>
-          <div class="menu">
-            <div class="w-[26px] border-t-[2px] border-black"></div>
-            <div class="w-[26px] border-t-[2px] border-black mt-2"></div>
+    <section class="hero ">
+      <div class="w-full mt-[5px] lg:mt-[10px]">
+        <div class="flex justify-center">
+          <div class="w-screen flex row justify-between items-center px-[26px] container">
+            <div class="logo w-[60px] h-[60px] lg:w-[70px] flex items-center">
+              <img class="" src="./assets/images/logo.png" alt="" />
+            </div>
+            <div class="menu lg:hidden">
+              <div class="w-[26px] border-t-[2px] border-black"></div>
+              <div class="w-[26px] border-t-[2px] border-black mt-2"></div>
+            </div>
+            <div class="desktop-menu hidden lg:block lg:w-[400px]">
+              <ul class="flex flex-row justify-around">
+                <li class="" ><a href="#"></a>Home</li>
+                <li><a href="#"></a>About</li>
+                <li><a href="#"></a>Blog</li>
+                <li><a href="#"></a>Follow</li>
+                <li><a href="#"></a>Try Varna</li>
+              </ul>
+            </div>
           </div>
         </div>
+        
       </div>
-      <div class="w-screen">
+      <div class="w-screen flex justify-center">
         <div
-          class="bg-primary px-[20px] mx-[20px] rounded-[25px] flex flex-col justify-center h-[450px]"
+          class="bg-primary px-[20px] mx-[20px] rounded-[25px] flex flex-col justify-center lg:justify-start md:h-[450px] lg:h-[700px] lg:mx-[64px] lg:mt-[50px] lg:pt-[70px] container"
         >
-          <div class="py-[20px] flex flex-col justify-around">
-            <h1 class="text-[35px] text-center text-white font-[900]">
-              <span>Amplify</span> <br />
-              <span>Conversations,</span> <br />
+          <div class="py-[20px] flex flex-col items-center">
+            <h1 class="text-[35px] lg:text-[56px] text-center text-white font-[900]">
+              <span>Amplify</span>
+              <span>Language</span> <br />
               <span>Word by Word</span>
             </h1>
             <p class="text-center text-[#bdd7ca] mt-[20px]">
               Varna simplifies vocabulary acquisition, empowering you to
-              comprehend and engage with written text effortlessly. Unlock the
-              power of words with Varna, enhancing your language journey like
+              comprehend and engage <br> with written text effortlessly.  Unlock the
+              power of words with Varna, <br> enhancing your language journey like
               never before.
             </p>
 
-            <a href="#" class="bg-green-500 text-center p-4 rounded-[12px] mt-[20px]">Try for free</a>
+            <a
+              href="#"
+              class="bg-green-500 text-center p-4 rounded-[12px] mt-[20px]"
+              >Try for free</a
+            >
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="pt-[40px] mx-[20px]">
+      <div>
+        <p class="text-center">
+          At Varna Language Learning, we're all about simpler ways to master
+          vocabulary.
+        </p>
       </div>
     </section>
   </body>
