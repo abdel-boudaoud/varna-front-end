@@ -678,6 +678,10 @@ video {
   max-width: 800px;
 }
 
+.grow {
+  flex-grow: 1;
+}
+
 .flex-row {
   flex-direction: row;
 }
