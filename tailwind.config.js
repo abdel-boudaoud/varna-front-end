@@ -5,6 +5,10 @@ module.exports = {
     extend: {
       backgroundColor:{
         "primary":"#004E7C"
+      }, 
+      fontFamily:{
+        beirut:"beirut", 
+        plantain:"plantain"
       }
     },
   },
