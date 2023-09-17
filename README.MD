@@ -8,4 +8,4 @@ Whether you're studying a new language or trying to improve your existing langua
 
 <h1>How to setup</h1>
 
-just run `npm run watch`
+just run `npm run build`
