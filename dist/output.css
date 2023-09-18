@@ -603,6 +603,19 @@ video {
   border-radius: 8px;
 }
 
+.action-card {
+  margin-bottom: 25px;
+  display: flex;
+  height: 270px;
+  width: 370px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(14 48 0 / var(--tw-bg-opacity));
+  padding: 10px;
+}
+
 .mx-\[10px\] {
   margin-left: 10px;
   margin-right: 10px;
@@ -662,10 +675,6 @@ video {
   display: none;
 }
 
-.h-\[205px\] {
-  height: 205px;
-}
-
 .h-\[60px\] {
   height: 60px;
 }
@@ -676,10 +685,6 @@ video {
 
 .w-\[26px\] {
   width: 26px;
-}
-
-.w-\[350px\] {
-  width: 350px;
 }
 
 .w-\[60px\] {
@@ -738,10 +743,6 @@ video {
   border-radius: 12px;
 }
 
-.rounded-\[20px\] {
-  border-radius: 20px;
-}
-
 .rounded-\[25px\] {
   border-radius: 25px;
 }
@@ -776,18 +777,9 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.border-\[\] {
-  border-color: ;
-}
-
 .bg-\[\#F5FCE0\] {
   --tw-bg-opacity: 1;
   background-color: rgb(245 252 224 / var(--tw-bg-opacity));
-}
-
-.bg-green-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
 }
 
 .bg-primary {
@@ -862,6 +854,10 @@ video {
   text-align: center;
 }
 
+.font-beirut {
+  font-family: beirut;
+}
+
 .font-plantain {
   font-family: plantain;
 }
@@ -903,6 +899,11 @@ video {
   color: rgb(0 101 61 / var(--tw-text-opacity));
 }
 
+.text-in-action {
+  --tw-text-opacity: 1;
+  color: rgb(157 234 136 / var(--tw-text-opacity));
+}
+
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(14 48 0 / var(--tw-text-opacity));
@@ -915,10 +916,6 @@ video {
 
 .duration-100 {
   transition-duration: 100ms;
-}
-
-.duration-200 {
-  transition-duration: 200ms;
 }
 
 .duration-500 {
@@ -934,31 +931,9 @@ video {
   cursor: pointer;
 }
 
-.hover\:border-\[2px\]:hover {
-  border-width: 2px;
-}
-
-.hover\:border-solid:hover {
-  border-style: solid;
-}
-
-.hover\:border-\[\#0E3000\]:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(14 48 0 / var(--tw-border-opacity));
-}
-
-.hover\:bg-white:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-secondary:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(14 48 0 / var(--tw-bg-opacity));
-}
-
-.hover\:p-\[14px\]:hover {
-  padding: 14px;
 }
 
 .hover\:text-white:hover {

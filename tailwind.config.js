@@ -9,7 +9,8 @@ module.exports = {
       },
      textColor:{
       "primary":"#0E3000", 
-      "header":"#00653d"
+      "header":"#00653d", 
+      "in-action":"#9DEA88"
      }, 
     
       fontFamily:{
