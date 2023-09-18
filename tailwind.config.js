@@ -4,8 +4,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor:{
-        "primary":"#004E7C"
-      }, 
+        "primary":"#9DEA87", 
+        "secondary":"#0E3000"
+      },
+     textColor:{
+      "primary":"#0E3000", 
+      "header":"#00653d"
+     }, 
       fontFamily:{
         beirut:"beirut", 
         plantain:"plantain"
