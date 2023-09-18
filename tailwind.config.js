@@ -11,6 +11,7 @@ module.exports = {
       "primary":"#0E3000", 
       "header":"#00653d"
      }, 
+    
       fontFamily:{
         beirut:"beirut", 
         plantain:"plantain"
