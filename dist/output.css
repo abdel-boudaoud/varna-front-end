@@ -606,14 +606,16 @@ video {
 .action-card {
   margin-bottom: 25px;
   display: flex;
-  height: 270px;
-  width: 370px;
+  height: 290px;
+  max-width: 400px;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
   border-radius: 20px;
   --tw-bg-opacity: 1;
   background-color: rgb(14 48 0 / var(--tw-bg-opacity));
-  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .mx-\[10px\] {
@@ -624,6 +626,11 @@ video {
 .mx-\[20px\] {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.mx-\[30px\] {
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .my-\[20px\] {
@@ -894,6 +901,11 @@ video {
   font-weight: 700;
 }
 
+.text-\[\#A1A89F\] {
+  --tw-text-opacity: 1;
+  color: rgb(161 168 159 / var(--tw-text-opacity));
+}
+
 .text-header {
   --tw-text-opacity: 1;
   color: rgb(0 101 61 / var(--tw-text-opacity));
@@ -912,6 +924,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#3A3A3A\] {
+  --tw-text-opacity: 1;
+  color: rgb(58 58 58 / var(--tw-text-opacity));
 }
 
 .duration-100 {

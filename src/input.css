@@ -17,6 +17,6 @@
     border-radius: 8px;
 }
 .action-card{
-    @apply w-[370px] h-[270px] p-[10px] bg-secondary rounded-[20px] mb-[25px] flex flex-col items-center
+    @apply max-w-[400px] h-[290px] px-[50px]  bg-secondary rounded-[20px] mb-[25px] flex flex-col items-center justify-around
 }
 @tailwind utilities;
