@@ -804,6 +804,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\/src\/assets\/images\/varna-bg\.png\)\] {
+  background-image: url(/src/assets/images/varna-bg.png);
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -901,6 +905,11 @@ video {
   font-weight: 700;
 }
 
+.text-\[\#3A3A3A\] {
+  --tw-text-opacity: 1;
+  color: rgb(58 58 58 / var(--tw-text-opacity));
+}
+
 .text-\[\#A1A89F\] {
   --tw-text-opacity: 1;
   color: rgb(161 168 159 / var(--tw-text-opacity));
@@ -926,21 +935,12 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\#3A3A3A\] {
-  --tw-text-opacity: 1;
-  color: rgb(58 58 58 / var(--tw-text-opacity));
-}
-
 .duration-100 {
   transition-duration: 100ms;
 }
 
 .duration-500 {
   transition-duration: 500ms;
-}
-
-.duration-200 {
-  transition-duration: 200ms;
 }
 
 .hover\:-translate-y-\[2px\]:hover {
@@ -952,24 +952,24 @@ video {
   cursor: pointer;
 }
 
-.hover\:bg-secondary:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(14 48 0 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-primary:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(157 234 135 / var(--tw-bg-opacity));
 }
 
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+.hover\:bg-secondary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(14 48 0 / var(--tw-bg-opacity));
 }
 
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
   color: rgb(14 48 0 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus {
