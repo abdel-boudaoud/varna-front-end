@@ -638,6 +638,11 @@ video {
   margin-bottom: 20px;
 }
 
+.my-\[10px\] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .mb-\[15px\] {
   margin-bottom: 15px;
 }
@@ -804,10 +809,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\/src\/assets\/images\/varna-bg\.png\)\] {
-  background-image: url(/src/assets/images/varna-bg.png);
-}
-
 .p-4 {
   padding: 1rem;
 }
@@ -822,6 +823,10 @@ video {
 
 .p-\[32px\] {
   padding: 32px;
+}
+
+.p-\[50px\] {
+  padding: 50px;
 }
 
 .px-\[15px\] {
@@ -873,6 +878,10 @@ video {
   font-family: plantain;
 }
 
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .text-\[13px\] {
   font-size: 13px;
 }
@@ -895,6 +904,24 @@ video {
 
 .text-\[35px\] {
   font-size: 35px;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-\[54px\] {
+  font-size: 54px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
 }
 
 .font-\[900\] {
@@ -952,6 +979,24 @@ video {
   cursor: pointer;
 }
 
+.hover\:border-\[1px\]:hover {
+  border-width: 1px;
+}
+
+.hover\:border-solid:hover {
+  border-style: solid;
+}
+
+.hover\:border-\[\#9DEA87\]:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(157 234 135 / var(--tw-border-opacity));
+}
+
+.hover\:border-\[\#0E3000\]:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(14 48 0 / var(--tw-border-opacity));
+}
+
 .hover\:bg-primary:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(157 234 135 / var(--tw-bg-opacity));
@@ -960,6 +1005,24 @@ video {
 .hover\:bg-secondary:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(14 48 0 / var(--tw-bg-opacity));
+}
+
+.hover\:p-\[9px\]:hover {
+  padding: 9px;
+}
+
+.hover\:p-\[\]:hover {
+  padding: ;
+}
+
+.hover\:px-\[24px\]:hover {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.hover\:px-\[9px\]:hover {
+  padding-left: 9px;
+  padding-right: 9px;
 }
 
 .hover\:text-primary:hover {
