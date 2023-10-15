@@ -633,14 +633,14 @@ video {
   margin-right: 30px;
 }
 
-.my-\[20px\] {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 .my-\[10px\] {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.my-\[20px\] {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .mb-\[15px\] {
@@ -731,8 +731,16 @@ video {
   place-items: center;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -771,8 +779,20 @@ video {
   border-width: 2px;
 }
 
+.border-\[1px\] {
+  border-width: 1px;
+}
+
 .border-t-\[2px\] {
   border-top-width: 2px;
+}
+
+.border-l-4 {
+  border-left-width: 4px;
+}
+
+.border-r-4 {
+  border-right-width: 4px;
 }
 
 .border-solid {
@@ -787,6 +807,11 @@ video {
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-\[\#F5FCE0\] {
@@ -829,6 +854,10 @@ video {
   padding: 50px;
 }
 
+.p-\[16px\] {
+  padding: 16px;
+}
+
 .px-\[15px\] {
   padding-left: 15px;
   padding-right: 15px;
@@ -852,6 +881,11 @@ video {
 .py-\[5px\] {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.py-\[16px\] {
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .pl-\[10px\] {
@@ -906,22 +940,16 @@ video {
   font-size: 35px;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-\[40px\] {
+  font-size: 40px;
 }
 
 .text-\[54px\] {
   font-size: 54px;
 }
 
-.text-\[40px\] {
-  font-size: 40px;
+.text-\[16px\] {
+  font-size: 16px;
 }
 
 .font-\[900\] {
@@ -987,11 +1015,6 @@ video {
   border-style: solid;
 }
 
-.hover\:border-\[\#9DEA87\]:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(157 234 135 / var(--tw-border-opacity));
-}
-
 .hover\:border-\[\#0E3000\]:hover {
   --tw-border-opacity: 1;
   border-color: rgb(14 48 0 / var(--tw-border-opacity));
@@ -1011,18 +1034,9 @@ video {
   padding: 9px;
 }
 
-.hover\:p-\[\]:hover {
-  padding: ;
-}
-
 .hover\:px-\[24px\]:hover {
   padding-left: 24px;
   padding-right: 24px;
-}
-
-.hover\:px-\[9px\]:hover {
-  padding-left: 9px;
-  padding-right: 9px;
 }
 
 .hover\:text-primary:hover {
@@ -1081,6 +1095,10 @@ video {
     margin-top: 50px;
   }
 
+  .lg\:mt-\[20px\] {
+    margin-top: 20px;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1128,6 +1146,16 @@ video {
   .lg\:px-\[25px\] {
     padding-left: 25px;
     padding-right: 25px;
+  }
+
+  .lg\:px-\[50pxx\] {
+    padding-left: 50pxx;
+    padding-right: 50pxx;
+  }
+
+  .lg\:px-\[50px\] {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .lg\:pl-\[20px\] {
