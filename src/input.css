@@ -19,4 +19,8 @@
 .action-card{
     @apply max-w-[400px] h-[290px] px-[50px]  bg-secondary rounded-[20px] mb-[25px] flex flex-col items-center justify-around
 }
+ 
+.cta-ul > li{
+    @apply text-[19px] mt-[15px] font-beirut text-primary;
+}
 @tailwind utilities;
