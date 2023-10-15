@@ -21,6 +21,6 @@
 }
  
 .cta-ul > li{
-    @apply text-[19px] mt-[15px] font-beirut text-primary;
+    @apply text-[19px] mt-[25px] font-beirut text-primary;
 }
 @tailwind utilities;
